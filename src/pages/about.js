@@ -117,6 +117,39 @@ const AboutPage = (props) => {
           </div>
         </Container>
 
+                  	
+<script>
+	
+    document.addEventListener('DOMContentLoaded', function() {
+	
+        var s,t; s = document.createElement('script'); s.type = 'text/javascript';
+	
+        s.src = 'https://qismo-stag.qiscus.com/js/qismo-v4.js'; s.async = true;
+	
+        s.onload = s.onreadystatechange = function() { new Qismo('zalda-vvq7pksvblaiy7s', {
+	
+                        staging: true,
+	
+                        options: {
+	
+                            channel_id: 593,
+	
+                            qismoIframeUrl: '//qismo-stag.qiscus.com', 
+	
+                            mobileBreakPoint:400,
+	
+                            extra_fields: [],
+	
+                        }
+	
+                    }); }
+	
+        t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+	
+    });
+	
+</script>
+
         <div className={styles.imageContainer}>
           <img alt={'shirt backwards'} src={'/about3.png'}></img>
         </div>
